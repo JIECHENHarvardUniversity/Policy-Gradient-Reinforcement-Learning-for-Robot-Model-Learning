@@ -29,12 +29,6 @@ function [TrainingTime, TestingTime, TrainingAccuracy, TestingAccuracy] = elm(Tr
 %
 % Sample1 regression: [TrainingTime, TestingTime, TrainingAccuracy, TestingAccuracy] = elm('sinc_train', 'sinc_test', 0, 20, 'sig')
 % Sample2 classification: elm('diabetes_train', 'diabetes_test', 1, 20, 'sig')
-%
-    %%%%    Authors:    MR QIN-YU ZHU AND DR GUANG-BIN HUANG
-    %%%%    NANYANG TECHNOLOGICAL UNIVERSITY, SINGAPORE
-    %%%%    EMAIL:      EGBHUANG@NTU.EDU.SG; GBHUANG@IEEE.ORG
-    %%%%    WEBSITE:    http://www.ntu.edu.sg/eee/icis/cv/egbhuang.htm
-    %%%%    DATE:       APRIL 2004
 
 %%%%%%%%%%% Macro definition
 REGRESSION=0;
